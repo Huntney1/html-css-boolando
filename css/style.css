@@ -104,3 +104,18 @@ body {
     border-style: solid;
     border-color: lime;
 }
+
+
+.brand,
+.tipo{
+    font-weight: bold;
+}
+
+.prezzo{
+
+}
+
+.red-color{
+    color: red;
+    font-weight: bold;
+}
