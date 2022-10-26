@@ -1,0 +1,53 @@
+/** regole */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    height: 11%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(49, 97, 224, 255);
+    color: white;
+}
+
+.row {
+    margin-top: 30px;
+    width: 80%;
+    height: 30%;
+    background-color: rgba(255,105,0,255);
+    display: flex;
+    align-items: center;
+}
+
+.col-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.col-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.col-tipo {
+    height: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: dashed;
+}
+
