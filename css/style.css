@@ -106,7 +106,10 @@ body {
 }
 
 
-.brand,
+.brand{
+font-style: oblique;
+}
+
 .tipo{
     font-weight: bold;
 }
