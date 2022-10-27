@@ -7,9 +7,55 @@
 
 header{
     /* background-color: rgba(0,0,0,0.7); */
-
+background-color: orange;
+color:white;
+height: 75px;
+display: flex;
+align-items: center;
+position: fixed;
+width: 100%;
+top:0;
+left: 0;
+z-index: 1;
 }
 
+.container-header{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.row-header{
+width: 100%;
+display:flex ;
+}
+
+.col-33{
+    width: calc(100% / 3);
+    height: 50%;
+}
+
+.content-header{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.content-header ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+.content-header ul li{ 
+   display: inline-block;
+}
+
+.content-header img{
+    width: 200px;
+}
+
+
+
+/* body */
 body {
 
     background-color: white;
@@ -19,6 +65,9 @@ body {
 
 }
 
+main{
+    margin: 130px 0px;
+}
 
 #container {
     margin: 0 auto;
@@ -29,7 +78,7 @@ body {
 }
 
 .row {
-    margin-top: 50px;
+    margin-top: 33px;
     position: relative;
     
 }
@@ -69,16 +118,19 @@ body {
 }
 
 .heart {
-    width: 100%;
+    width: 13%;
+    height: 38px;
     position: absolute;
-    bottom: 13px;
-    font-size: 40px;
+    bottom: 431px;
+    left: 255px;
+    font-size: 35px;
     color: red;
-    display: none;
+    background-color: white;
 }
 
 .object:hover .heart {
     display: block;
+    color: black;
 }
 
 .sconto.red {
