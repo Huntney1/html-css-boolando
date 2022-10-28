@@ -5,55 +5,62 @@
     box-sizing: border-box;
 }
 
-header{
-    /* background-color: rgba(0,0,0,0.7); */
-background-color: orange;
-color:white;
-height: 75px;
-display: flex;
-align-items: center;
-position: fixed;
-width: 100%;
-top:0;
-left: 0;
-z-index: 1;
+header {
+    background-color: orange;
+    color: white;
+    display: flex;
+    align-items: center;
+
+    /* position: fixed;   
+    top: 0;
+    left: 0;
+    z-index: 1; */
 }
 
-.container-header{
+.collumn-header {
     width: 75%;
     margin: 0 auto;
 }
 
-.row-header{
-width: 100%;
-display:flex ;
+.row-header {
+    width: 100%;
+    display: flex;
 }
 
-.col-33{
+.column-header {
     width: calc(100% / 3);
-    height: 50%;
 }
 
-.content-header{
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.content-header {
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.content-header ul{
+.content-header ul {
     list-style-type: none;
     width: 100%;
 }
 
-.content-header ul li{ 
-   display: inline-block;
+.content-header ul li {
+    display: inline-block;
 }
 
-.content-header img{
+.content-header img {
     width: 200px;
 }
-
-
 
 /* body */
 body {
@@ -61,26 +68,21 @@ body {
     background-color: white;
     text-align: center;
     margin: 0 auto;
-
-
 }
 
-main{
+main {
     margin: 130px 0px;
 }
 
 #container {
     margin: 0 auto;
-    
     border-radius: 5px;
     position: relative;
-
 }
 
 .row {
     margin-top: 33px;
     position: relative;
-    
 }
 
 #titolo {
@@ -100,11 +102,10 @@ main{
     width: 300px;
     position: relative;
     display: inline-block;
-
 }
 
 .object>.sconto {
-   /*  font-family: 'Brush Script MT' ; */
+    /*  font-family: 'Brush Script MT' ; */
     font-size: 15px;
     width: 40px;
     height: 40px;
@@ -114,7 +115,6 @@ main{
     left: 0;
     text-align: center;
     border-radius: 5px;
-
 }
 
 .heart {
@@ -137,7 +137,6 @@ main{
     background-color: red;
     border-style: solid;
     border-color: lime;
-
 }
 
 
@@ -149,30 +148,29 @@ main{
 
 }
 
-.object .img{
+.object .img {
     width: 95%;
     position: relative;
     bottom: 10px;
-    border-style: solid;
-    border-color: lime;
+    border-style:solid ;
 }
 
 
-.brand{
-font-style: oblique;
-position: relative;
+.brand {
+    font-style: oblique;
+    position: relative;
 }
 
-.tipo{
+.tipo {
     font-weight: bold;
     font-size: 18px;
 }
 
-.prezzo{
+.prezzo {
     font-weight: bold;
 }
 
-.red-color{
+.red-color {
     color: red;
     font-weight: bold;
 }
