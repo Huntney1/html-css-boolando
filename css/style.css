@@ -57,11 +57,15 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .content-header ul {
     list-style-type: none;
     width: 100%;
+    font-size: 140%;
+    display: inline-block;
+    
 }
 
 .content-header ul li {
@@ -83,7 +87,7 @@ main {
 }
 
 .row {
-    padding-top: 45px;
+    padding-top: 50px;
     position: relative;
 }
 
@@ -122,7 +126,7 @@ main {
     color: black;
 }
 
-.sconto.red {
+.sconto.red {/*! da inserire nelle regole  */
     background-color: red;
     border-style: solid;
     border-color: lime;
@@ -130,18 +134,21 @@ main {
 
 
 
-.sconto.green {
+.sconto.green {/*! da inserire nelle regole  */
     background-color: lime;
     border-style: solid;
     border-color: aliceblue;
-
 }
 
 .object .img {
     width: 95%;
     position: relative;
     bottom: 10px;
-    border-style:solid ;
+}
+
+.img-3-top{ /*! da inserire nelle regole  */
+    top: -13px;
+
 }
 
 
