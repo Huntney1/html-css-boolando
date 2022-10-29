@@ -134,7 +134,7 @@ main {
 
 
 
-.sconto.green {/*! da inserire nelle regole  */
+.sconto.green {/*! da inserire nelle regole e cambiare nome classe */
     background-color: lime;
     border-style: solid;
     border-color: aliceblue;
@@ -157,16 +157,16 @@ main {
     position: relative;
 }
 
-.tipo {
+.tipo,
+.prezzo,
+.red-color {
     font-weight: bold;
-    font-size: 18px;
 }
 
-.prezzo {
-    font-weight: bold;
+.tipo {
+    font-size: 18px;
 }
 
 .red-color {
     color: red;
-    font-weight: bold;
 }
