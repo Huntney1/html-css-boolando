@@ -5,15 +5,15 @@
     box-sizing: border-box;
 }
 
-.text-right{
+.text-right {
     text-align: right;
 }
 
-.text-left{
+.text-left {
     text-align: left;
 }
 
-.justyfy-center{
+.justyfy-center {
     justify-content: center;
 }
 
@@ -32,15 +32,15 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 10vh;
-    position: fixed;   
+    height: 9vh;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
 }
 
 .container-header {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -63,9 +63,9 @@ header {
 .content-header ul {
     list-style-type: none;
     width: 100%;
-    font-size: 140%;
+    font-size: 100%;
     display: inline-block;
-    
+
 }
 
 .content-header ul li {
@@ -78,7 +78,7 @@ header {
 
 /** main */
 main {
-    margin: 130px 0px;
+    margin: 90px 0px;
 }
 
 #container {
@@ -101,13 +101,12 @@ main {
     /*  font-family: 'Brush Script MT' ; */
     font-size: 15px;
     width: 40px;
-    height: 40px;
-    line-height: 35px;
+    height: 23px;
+    line-height: 23px;
     position: absolute;
-    top: 0;
+    bottom: 20%;
     left: 0;
     text-align: center;
-    border-radius: 5px;
 }
 
 .heart {
@@ -126,27 +125,52 @@ main {
     color: black;
 }
 
-.sconto.red {/*! da inserire nelle regole  */
+.sconto.red {
+    /*! da inserire nelle regole  */
     background-color: red;
-    border-style: solid;
-    border-color: lime;
+    color: white;
+    font-weight: bold;
 }
 
-
-
-.sconto.green {/*! da inserire nelle regole e cambiare nome classe */
-    background-color: lime;
-    border-style: solid;
-    border-color: aliceblue;
+.badge {
+    font-size: 16px;
+    width: 87px;
+    height: 23px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    left: 14%;
+    bottom: 20%;
 }
 
-.object .img {
+.badge,
+.green {
+    /*! da inserire nelle regole e cambiare nome classe */
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.green-position{
+    position: absolute;
+    left: 9px;
+}
+
+.object .img,
+.secondary-img {
     width: 95%;
     position: relative;
     bottom: 10px;
 }
 
-.img-3-top{ /*! da inserire nelle regole  */
+.secondary-img {
+    display: none;
+}
+
+.secondary-img:hover {}
+
+.img-3-top {
+    /*! da inserire nelle regole  */
     top: -13px;
 
 }
