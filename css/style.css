@@ -116,13 +116,13 @@ main {
     bottom: 431px;
     left: 255px;
     font-size: 35px;
-    color: red;
+    color: black;
     background-color: white;
 }
 
 .object:hover .heart {
     display: block;
-    color: black;
+    color: red;
 }
 
 .sconto.red {
@@ -156,6 +156,11 @@ main {
     left: 9px;
 }
 
+/** card */
+.object{
+    cursor: pointer;
+}
+
 .object .img,
 .secondary-img {
     width: 95%;
@@ -163,18 +168,27 @@ main {
     bottom: 10px;
 }
 
+.img{
+    display: block;
+}
+
 .secondary-img {
     display: none;
 }
 
-.secondary-img:hover {}
+.object:hover .img {
+    display: none;
+}
+
+.object:hover .secondary-img {
+    display: block;
+}
 
 .img-3-top {
     /*! da inserire nelle regole  */
     top: -13px;
 
 }
-
 
 .brand {
     font-style: oblique;
