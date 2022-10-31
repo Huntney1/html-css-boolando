@@ -113,8 +113,8 @@ main {
     width: 13%;
     height: 38px;
     position: absolute;
-    bottom: 431px;
-    left: 255px;
+    top: 10px;
+    right: 15px;
     font-size: 35px;
     color: black;
     background-color: white;
@@ -145,19 +145,19 @@ main {
 
 .badge,
 .green {
-    /*! da inserire nelle regole e cambiare nome classe */
+    /*! da inserire nelle regole */
     background-color: green;
     color: white;
     font-weight: bold;
 }
 
-.green-position{
+.green-position {
     position: absolute;
-    left: 9px;
+    left: 0px;
 }
 
 /** card */
-.object{
+.object {
     cursor: pointer;
 }
 
@@ -165,10 +165,9 @@ main {
 .secondary-img {
     width: 95%;
     position: relative;
-    bottom: 10px;
 }
 
-.img{
+.img {
     display: block;
 }
 
@@ -184,10 +183,15 @@ main {
     display: block;
 }
 
-.img-3-top {
-    /*! da inserire nelle regole  */
-    top: -13px;
-
+/* .img-3-top{
+    top: 0px;
+}
+ */
+.tipo,
+.brand,
+.prezzo {
+    font-weight: bold;
+    text-align: left;
 }
 
 .brand {
@@ -195,11 +199,6 @@ main {
     position: relative;
 }
 
-.tipo,
-.prezzo,
-.red-color {
-    font-weight: bold;
-}
 
 .tipo {
     font-size: 18px;
@@ -207,4 +206,5 @@ main {
 
 .red-color {
     color: red;
+    font-weight: bold;
 }
